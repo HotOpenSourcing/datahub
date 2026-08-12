@@ -63,7 +63,6 @@ post-workflow-validation-summary.md
 **/acryl-spark-lineage/coalesce-test/
 
 #VS Code
-.vscode
 .devcontainer
 
 #spark smoke test
@@ -128,7 +127,6 @@ skills-lock.json
 .kiro
 
 # Environment files with credentials
-.env*
 *.env
 # Exception: ZDU test compose override (no secrets — only authz bypass flags)
 !docker/profiles/zdu-test.env
@@ -182,3 +180,5 @@ test-models/bin/
 # Generated per-page markdown mirror for AI tools (emitted by
 # docs-website/generateDocsDir.ts, served at /docs/<slug>.md)
 docs-website/static/docs/
+config.bat
+node_modules
